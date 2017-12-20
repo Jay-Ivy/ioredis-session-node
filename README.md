@@ -25,16 +25,17 @@ app.use(Redis({
 }));
 ```
 set redis session:
+```javascript
 Redis.save(req, res).then(() => next()).catch((err) => next(err));
 ```
 
-```
 reset redis session:
+```javascript
 Redis.reset(req, res).then(() => next()).catch((err) => next(err));
 ```
 
-```
 redis cluster instance:
+```javascript
 Redis.Cluster.set("key", "value").then(() => next()).catch((err) => next(err));
 ```
 
