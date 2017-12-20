@@ -39,7 +39,7 @@ redis cluster instance:
 Redis.Cluster.set("key", "value").then(() => next()).catch((err) => next(err));
 ```
 
-```
+```javascript
 1、添加依赖：
 "ioredis-session": "~0.0.6"
 
