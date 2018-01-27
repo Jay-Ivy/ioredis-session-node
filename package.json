@@ -1,6 +1,6 @@
 {
   "name": "ioredis-session",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Redis cluster for session with node.",
   "keywords": [
     "ioredis",
